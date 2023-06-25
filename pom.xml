@@ -17,5 +17,13 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <!-- Additional lines to be added here... -->
 
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+    </dependencies>
+
+
 </project>
 
