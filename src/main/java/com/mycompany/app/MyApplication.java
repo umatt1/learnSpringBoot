@@ -9,9 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class MyApplication {
 
+    int x = 0;
+
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        x = x + 1;
+        return "I have been called " + x + " times! \n";
     }
 
     public static void main(String[] args) {
